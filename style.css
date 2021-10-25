@@ -1,0 +1,132 @@
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnkzuqP1ybF-ViO3KTYHOFDVChBHzpx7uFDw&usqp=CAU);
+}
+
+.top{
+    height: 300px;
+    background-image: url(boat2.jfif);
+    text-align: center;
+    display: flex;
+}
+.top h1{
+    color: yellow;
+    margin: 185px;
+}
+.top img{
+    width: 350px;
+}
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 70px;
+    background-color: rgb(212, 150, 69);
+    color: white;
+}
+nav ul li{
+    padding: 0 50px;
+}
+.search{
+    margin: 500px;
+    display: flex;
+}
+#search{
+    border: 3px solid rgb(116, 202, 76);
+}
+.abcd{ 
+    border: 5px solid yellow;
+    background-color: rgb(224, 51, 51);
+    display:flex;
+    margin: 100px;
+    border-radius: 30px;
+}
+.abcd h3{
+    padding-top: 10px;
+    padding-right: 30px;
+    font-family: cursive;
+    font-size: 30px;
+}
+.abcd img{
+    padding: 0 100px;
+    height: 360px;
+}
+.abcd2 img{
+    padding: 30px;
+    padding-top: 100px;
+    height: 400px;
+    width: 900px;
+}
+.abcd2{
+    border: 5px solid rgb(88, 88, 55);
+    display: flex;
+    background-color: rgb(38, 211, 105);
+    padding: 0 80px;
+    margin: 100px;
+    border-radius: 30px;
+}
+.abcd2 h3{
+    padding-top: 8px;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.abcd3{
+    border: 5px solid red;
+    display: flex;
+    background-color: rgb(90, 162, 207);
+    margin: 100px;
+    border-radius: 30px;
+}
+.abcd3 img{
+    padding: 0 100px;
+    height: 400px;
+    width: 600px;
+}
+.abcd3 h3{
+    font-family: cursive;
+    font-size: 30px;
+    padding-top: 15px;
+    margin: 40px;
+    padding-right: 100px;
+}
+.footer{
+    display: flex;
+    height: 70spx;
+    background-color: rgb(13, 41, 25);
+}
+.footer h3{
+    color: rgb(228, 172, 172);
+    padding-left: 150px;
+}
+.fa {
+    height: 40px;
+    width: 50px;
+    text-align: center;
+  }
+.fa:hover {
+    opacity: 50;
+  }
+.fa-facebook {
+    padding: 15px;
+    background: #264586;
+    color: white;
+    margin-left: 200px; 
+  }
+.fa-twitter {
+    padding: 15px;
+    background: #66a6d8;
+    color: white;
+    margin-left: 200px;
+  }
+.fa-instagram {
+    padding: 15px;
+    background: #e41111;
+    color: white;
+    margin-left: 200px;
+  }
+nav ul li a{
+    color: white;
+}
